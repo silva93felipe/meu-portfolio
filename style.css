@@ -20,7 +20,7 @@ body{
     }
     header{
         width: 35vw;
-        background-image: url('../assets/background.jpg');
+        background-image: url('./assets/background.jpg');
         background-size: cover;
         display: flex;
         flex-direction: row;
