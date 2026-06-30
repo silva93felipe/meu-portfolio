@@ -42,7 +42,7 @@ Para visualizar a página localmente na sua máquina, siga os passos abaixo:
 Este projeto está configurado para rodar diretamente pelo **GitHub Pages**.
 
 Você pode acessar o site publicado através deste link:
-🔗 [Acesse a Landing Page Aqui](https://github.io)
+🔗 [Acesse a Landing Page Aqui](https://silva93felipe.github.io/meu-portfolio/)
 
 ---
 
