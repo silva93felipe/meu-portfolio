@@ -9,7 +9,6 @@
     font-size: 1rem;
 }
 body{
-    /* height: 100%; */
     display: flex;
     flex-direction: row;
     background-color: rgb(237, 237, 245);
@@ -20,8 +19,9 @@ body{
     }
     header{
         width: 35vw;
-        background-image: url('./assets/background.jpg');
+        background-image: url('./assets/background.webp');
         background-size: cover;
+        background-repeat: no-repeat;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -53,12 +53,17 @@ body{
         padding: 8rem;
         counter-reset: rgb(181, 221, 255);
 
-        a:hover{
+        a{
             text-decoration: underline;
-            font-weight: bold;
-            font-size: 1.1rem;
+            font-size: 1rem;
+            
             text-underline-offset: 0.3rem;
-            text-decoration-thickness: 1.5px;
+            text-decoration-thickness: 1.2px;
+            letter-spacing: 1.3px;
+            &:hover{
+                font-weight: bold;
+                font-style: italic;
+            }
         }
 
         .container-nav{
@@ -70,14 +75,17 @@ body{
             h1{
                 font-size: 1.5rem;
             }
-            .nav-container{
+            .nav{
                 .nav-li{
                    padding: 0 0.5rem;
                 }
             }
         }
 
-        .container{   
+        .container{ 
+            h2 {
+                font-style: italic;
+            }
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -86,13 +94,53 @@ body{
             line-height: 2rem;
             letter-spacing: 1.5px;
             border-bottom: solid 1px rgb(189, 198, 206);
+            .html{
+                background-color: red;
+                color: white;
+                padding: 0.5rem;
+                border-radius: 1rem;
+                margin-bottom: 1rem;
+                display: inline;
+                transition: padding 0.3s ease-in-out;  
+                &:hover{
+                   padding: 1rem;
+                }
+            }
+
+            .css{
+                background-color: blue;
+                color: white;
+                padding: 0.5rem;
+                border-radius: 1rem;
+                margin-bottom: 1rem;
+                display: inline;
+                transition: padding 0.3s ease-in-out;  
+                &:hover{
+                   padding: 1rem;
+                }
+            }
+
+            .javascript{
+                background-color: rgba(190, 190, 55, 0.87);
+                color: white;
+                padding: 0.5rem;
+                border-radius: 1rem;
+                margin-bottom: 1rem;
+                display: inline;
+                transition: padding 0.3s ease-in-out;  
+                &:hover{
+                   padding: 1rem;
+                }
+            }
         }
 
         #contato{
+            font-style: italic;
             display: flex;
             flex-direction: column;
             line-height: 2rem;
             letter-spacing: 1.5px;
+            margin: 1rem;
             .container-contato-form{
                 display: flex;
                 align-items: center;
@@ -118,6 +166,37 @@ body{
                             background-color: #a1a0a0;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:  1250px){
+    body {
+        display: flex;
+        flex-direction: column;
+
+        header{
+            width: 100vw;
+            background-image: none;
+        }
+
+        main{
+            width: 100vw;
+            padding: 1rem;
+            .container-nav{
+                flex-direction: column;
+            }
+
+            .nav{
+                .nav-li{
+                    text-decoration: underline;
+                    font-size: 1rem;
+                    font-style: italic;
+                    text-underline-offset: 0.3rem;
+                    text-decoration-thickness: 1.2px;
+                    letter-spacing: 1.3px;
                 }
             }
         }
