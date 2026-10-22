@@ -1,6 +1,6 @@
 # 🚀 Meu Portfólio Pessoal
 
-Uma landing page simples, moderna e responsiva, desenvolvida apenas com **HTML5** e **CSS3** para apresentar meus projetos e minha trajetória profissional.
+Projeto realizado na disciplina de Desenvolviemento Frontend de uma landing page simples, moderna e responsiva, desenvolvida apenas com **HTML5** e **CSS3** para apresentar meus projetos. 
 
 ---
 
@@ -15,7 +15,6 @@ Este projeto foi construído utilizando apenas tecnologias web nativas, sem fram
 ## ✨ Funcionalidades
 
 - 📱 **Design Responsivo:** Adapta-se a computadores, tablets e smartphones.
-- 🎨 **Estilização Moderna:** Uso de variáveis CSS para cores e fontes limpas.
 - 🔗 **Links Diretos:** Acesso rápido aos meus melhores projetos e redes sociais.
 
 ---
